@@ -1,0 +1,54 @@
+html {
+background-color: rgb(118, 212, 205)
+}
+body {
+  padding-top: 71px;
+}
+.ground {
+width: 738px;
+height: auto;
+min-height: 100%;
+margin-bottom: 70px;
+background: rgba(255, 255, 255, 0.8); 
+
+}
+.ground img.rush {
+padding-left: 0px;
+}
+
+#wrap{
+width: 100%;
+background: rgb(118, 212, 201); 
+}
+
+
+.img-thumbnail{
+max-width: 95%;
+margin: 7px;
+margin-bottom: 15px;
+}
+
+.footer{
+position: fixed;
+bottom: 0;
+height: 70px;
+padding: 0;
+background: rgb(91, 146, 138);
+width: 100%;
+}
+
+.row{
+margin-top: 15px;
+}
+
+.line{
+position: fixed;
+bottom: 70px;
+height: 1px;
+background: rgb(124, 152, 156);
+width: 100%;
+}
+
+.contacts{
+margin: 50px;
+}

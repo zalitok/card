@@ -3,6 +3,10 @@ background-color: rgb(118, 212, 205)
 }
 body {
   padding-top: 71px;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
 }
 .ground {
 width: 738px;
@@ -51,4 +55,19 @@ width: 100%;
 
 .contacts{
 margin: 50px;
+}
+
+.glyphicon {
+margin-right: 7px;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+font-size: 100%;
+margin-right: 1em;
+}
+a:hover, a:focus {
+color: #FAFBFC;
+}
+a {
+color: #2B3842;
 }
